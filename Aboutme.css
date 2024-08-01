@@ -1,0 +1,57 @@
+*{
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+.top{
+    background-color: #001329k;
+    height: 8rem;
+    width: 100%;
+}
+body{
+    background-image: url("pexels-felixmittermeier-957061.jpg");
+    background-size: cover;
+}
+.abme{
+    color: white;
+    font-family: "Raleway", sans-serif;
+    font-size: 5rem;
+    padding-top: 5px;
+    background-color: #000000;
+    font-weight: bolder;
+    color: gold;
+    
+}
+.left{
+    background-color:yellowgreen;
+    margin: 36px;
+    height: 426px;
+    width: 40%;
+    display: block;
+    font-size: 2.6rem;
+    font-family: "Montserrat", sans-serif;
+    padding: 40px;
+    border-radius: 50px;
+    margin-top: 90px;
+    background-image: url("1.jpg");
+    background-size: cover;
+    color: red;
+}
+.right{
+    background-image: url("Photo with white bg.JPG");
+    margin: 36px;
+    height: 653px;
+    width: 40%;
+    display: block;
+    background-size: cover;
+    border-radius: 50px;
+
+}
+.explain{
+    display: flex;
+}
+.skill{
+    border: 2px white solid;
+    height: 50px;
+    width: 150px;
+}

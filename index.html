@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shashank-Developer Portfolio</title>
+    <link rel="stylesheet" href="Portfolio.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Hind:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+<style>
+    header ul li:hover .submenu{
+        z-index: 99;
+        opacity: 1;
+        margin-top: 0;
+    }
+</style>
+</head>
+<body>
+    <header>
+        <navbar>
+            <div class="left">Shashank's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="index.html">Home</li>
+                    <li><a href="Aboutme.html">About me</a></li>
+                    <li><a href="work.html">Work</a></li>
+                    <li><a href="">Social Media</a>
+                        <ul class="dropdown">
+                            <li class="s"><a href="https://www.instagram.com/shashank__2/" target="_main">Instagram <i class="fa-brands fa-instagram"></i></a></li>
+                            <li class="s"><a href="https://github.com/Shashank8898" target="_main">Github <i class="fa-brands fa-github"></i></a></li>
+                            <li class="s"><a href="https://www.facebook.com/profile.php?id=100040392532565" target="_main">Facebook <i class="fa-brands fa-facebook"></i></a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </navbar>
+    </header>
+    <main>
+        <section class="firstsection">
+            <div class="body">
+                <div class="leftsection">Hi, My name is <span id="nam">Shashank</span>
+                    <div class="we">and I am a Passionate</div>
+                    <span id="element"></span>
+                </div>
+                <div class="rightsection">
+                    <img class="dev" src="img.png" alt="dev">
+                </div>
+        </section>
+            
+     
+    
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+          strings: ["Web Developer","Web Designer",],
+          typeSpeed: 100,
+        });
+      </script>
+</body>
+</html>

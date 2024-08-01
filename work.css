@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+.navbar{
+    background-color: black;
+    height: 81px;
+    width: 100%;
+    color: white;
+    font-size: 4rem;
+    text-align: center;
+    align-items:self-end;
+    font-family: "Raleway", sans-serif;
+}
+.Projects{
+    background-image: url("w.jpg");
+    background-size: cover;
+    height: 100%;
+}
+.line{
+    display: flex;
+}
+.amazon-clone{
+    background-color: black;
+    margin: 30px;
+    padding: 10px;
+    height: 300px;
+    width: 30%;
+    font-family: "DM Sans", sans-serif; 
+}
+.tttgame{
+    background-color: black;
+    margin: 30px;
+    padding: 10px;
+    height: 300px;
+    width: 30%;
+}
+.comingsoon{
+    background-color: black;
+    margin: 30px;
+    padding: 10px;
+    height: 300px;
+    width: 30%;
+}
+.box{
+    background-color: black;
+    margin: 30px;
+    padding: 10px;
+    height: 300px;
+    width: 30%;
+}
+.image1{
+    background-image:url("clone.jpg");
+    height: 85%;
+    background-size: cover;
+}
+.image2{
+    background-image: url("game.jpg");
+    background-size: cover;
+    height: 85%;
+}
+.link{
+    color: white;
+    text-align: center;
+    margin-left: 90px;
+    font-size: 2.1rem;
+    text-decoration: none;
+    font-family: "Kanit", sans-serif;
+    border-radius: 10px;
+}
+.link:hover{
+    border: 2px white solid;
+    background-color: white;
+    color: black;
+    background-image: url("wsa.jpg");
+    background-size: cover;
+    transition: 2.4rem 1s ease-in-out 1s;
+}
+::-webkit-scrollbar{
+    width: 0px;
+}
