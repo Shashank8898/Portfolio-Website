@@ -1,0 +1,189 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    color: white;
+
+}
+body{
+    background-color: #0C0C0F;
+
+}
+header{
+    height: 3.5rem;
+    width: 100vw;
+    background-color: black;
+    animation: header1 1.5s ease-in 0s 1 forwards;
+    display: flex;
+    justify-content:space-between;
+
+}
+.logo{
+    background-image: url("1609805.webp");
+    background-size: cover;
+    border-radius: 50%;
+    height: 2.5rem;
+    width: 3rem;
+    padding: 8px;
+    animation: n1 2s ease-in 0s 1 forwards;
+}
+.top-right-items{
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    font-family: "Montserrat", sans-serif;
+
+
+}
+.list a{
+    display: inline-block;
+    align-items:baseline ;
+    height: 3rem;
+    width: 6rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    text-align:center;
+    line-height: 2.5rem;
+    color: red;
+    animation: links-opening 0.5s ease-in 1.8s 1 forwards !important;
+    font-size: 1.5rem;
+    opacity: 0; 
+
+
+}
+
+
+.list a:hover{
+    font-size: 1.5rem;
+    background-color: red;
+    animation: links 0.1s ease-in 0s infinite forwards !important;
+    color: black;
+    border-radius: 4rem;
+
+}
+.body{
+    display: grid !important;
+    grid-template-columns: 50% 50%;
+    height: 92vh;
+}
+.left-body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.right-body{
+    height: 98%;
+    margin: 1rem;
+    font-family: "Montserrat", sans-serif;
+
+}
+.b{
+    height: 98%;
+    margin: 1rem;
+    border-radius: 30px;
+}
+
+.photo{
+    width: 25rem;
+    height: 34rem;
+    border-radius: 10px;
+    background-color: #0000008c;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    animation: appearing 3s ease-in-out 0s 1 forwards;
+}
+.photo::before{
+    content:"";
+    background-image: conic-gradient(
+        red 10deg,
+        transparent 150deg
+    ); 
+    width: 170%;
+    height: 170%;
+    position: absolute;
+    animation: rotate 2s linear 0s infinite forwards ;
+}
+.photo::after{
+    content: "";
+    width: 97%;
+    height: 97%;  
+    background-color: #101010;    
+    position: absolute;
+    border-radius: 10px; 
+    background-image: url("final.jpg");
+    background-size: cover;
+}
+.right-body p{
+    font-size: 4rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    font-weight: 600;
+    
+
+}
+.red{
+    color: red;
+}
+.intro{
+    margin-top: 9rem;
+    margin-left: 0;
+    animation: intro 2s ease-in 0s 1 forwards ;
+
+}
+.Handles{
+    margin-top: 10px;
+    font-size: 1.7rem;
+    color: red;
+}
+.fa-brands{
+    color: red;
+}
+.por{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.Portal{
+    color: red;
+    margin-top: 3rem;
+    border: 2px solid red;
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 8rem;
+    border-radius: 50px;
+    background-color: black;
+    font-size: 1rem;
+    animation: appearing 3s ease-in-out 0s 1 forwards;
+
+}
+.Portal:hover{
+    color: black;
+    font-weight: 500;
+    background-color: red;
+}
+
+.photo-closing{
+    animation: closing 0.3s ease-in 0s 1 forwards ;
+}
+.intro-closing{
+    animation: closing 0.3s ease-in 0.5s 1 forwards ;
+}
+.logo-closing{
+    animation: logo_closing 1s ease-in 0.8s 1 forwards ;
+}
+.header-closing{
+    animation: header-closing 1s ease-in 0.1s 1 forwards ;
+
+}
