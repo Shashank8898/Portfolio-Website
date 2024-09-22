@@ -163,3 +163,11 @@ input:checked + label .description {
 .card[for="c4"] {
     background-image: url('');
 }
+.projectlinks{
+    color: black;
+}
+.projectlinks:hover{
+    color: red;
+    text-decoration:underline;
+    border-radius: 3rem;    
+}
