@@ -161,7 +161,7 @@ input:checked + label .description {
     background-image: url('Tic-Tac-Toe.jpg');
 }
 .card[for="c4"] {
-    background-image: url('');
+    background-image: url('Wanderlust.jpg');
 }
 .projectlinks{
     color: black;
