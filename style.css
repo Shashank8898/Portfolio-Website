@@ -187,3 +187,15 @@ header{
     animation: header-closing 1s ease-in 0.1s 1 forwards ;
 
 }
+.fa-brands:hover{
+    background-color: red;
+    color: black;
+    font-size: larger;
+    padding: 5px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 2px 1px rgba(255, 0, 0, 0.5)
+}
+.photo:hover{
+    box-shadow: 1px 10px 100px 10px rgba(255, 0, 0, 0.5)
+
+}
