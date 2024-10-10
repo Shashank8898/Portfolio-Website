@@ -171,3 +171,34 @@ input:checked + label .description {
     text-decoration:underline;
     border-radius: 3rem;    
 }
+
+
+@media (max-width: 700px) {
+    body{
+        height: 0%;
+        width: 100%;
+    }
+    
+    .container{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        margin-left: 50%;
+        /* height: 90%; */
+    }
+    input:checked + label {
+        width: 70%;
+        height: 60%;
+        
+        
+    }
+    
+    input:checked + label .description {
+        opacity: 1 !important;
+        transform: translateY(0) !important;
+    
+    }
+    .card{
+        margin: ;
+    }
+}

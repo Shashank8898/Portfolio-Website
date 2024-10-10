@@ -36,9 +36,9 @@ body{
     text-align:center;
     line-height: 2.5rem;
     color: red;
-    /* animation: links-opening 0.5s ease-in 1.8s 1 forwards !important; */
+    animation: links-opening 0.5s ease-in 0.8s 1 forwards !important;
     font-size: 1.5rem;
-    /* opacity: 0;  */
+    opacity: 0; 
     text-decoration: none;
 }
 .aud:hover{
@@ -122,8 +122,8 @@ body{
     margin: 0;
 }
 .intro{
-    margin-top: 10rem;
-    margin-left: 0;
+    margin-top: 12rem;
+    margin-left: -5rem;
     animation: intro 0.5s ease-in 0s 1 forwards ;
 
 }
@@ -197,14 +197,15 @@ body{
         width: 100% !important;
         background-size: cover;
         margin-top: -6rem;
-        margin-left: -1rem;
+        grid-template-columns: 100%;
+    }
+    .right-body{
+        margin-left: 7rem;
+        margin-top: -10rem;
+        height: auto !important;
         grid-template-columns: 100%;
     }
 
-    .right-body{
-        /* margin-left: 4rem;
-        margin-top: -8rem; */
-    }
     .d-flex{
         background-color: black;
         /* margin-left: -1rem; */
