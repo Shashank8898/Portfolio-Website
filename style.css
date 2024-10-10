@@ -189,9 +189,12 @@ body{
 }
 
 @media (max-width: 768px) {
+    body{
+        width: 100%;
+    }
     .body{
         height: auto !important; 
-        width: 103% !important;
+        width: 100% !important;
         background-size: cover;
         margin-top: -6rem;
         margin-left: -1rem;
@@ -199,7 +202,14 @@ body{
     }
 
     .right-body{
-        margin-left: 6rem;
+        margin-left: 4rem;
+        margin-top: -8rem;
+    }
+    .d-flex{
+        background-color: white;
+        /* margin-left: -1rem; */
+        padding: 0;
+        width: 90%;
     }
     
 }
