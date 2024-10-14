@@ -163,6 +163,9 @@ input:checked + label .description {
 .card[for="c4"] {
     background-image: url('Wanderlust.jpg');
 }
+.card[for="c5"] {
+    background-image: url('Spotify.jpg');
+}
 .projectlinks{
     color: black;
 }
